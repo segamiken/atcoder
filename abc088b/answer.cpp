@@ -6,8 +6,9 @@ using namespace std;
 int main () {
     int n;
     cin >> n;
-    
+
     //配列の宣言
+    //要素数nのvecという名の配列
     vector<int> vec(n);
 
     for (int i = 0; i < n; i++) {
